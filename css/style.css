@@ -1,7 +1,58 @@
-/*
-    *CSS GERAL
-*/
+/**CSS Geral*/
 
 html{
     font-family: 'Open sans', 'sans-serif';
+    color: #373A3C;
+}
+
+*{
+    transition: .5s;
+}
+
+/** Sidebar */
+
+#sidebar{
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: #006599;
+    padding-top:40px; 
+}
+
+#sidebar h1{
+    color: #FFF;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#sidebar a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#sidebar a:hover{
+    color: #F4EF5E;
+}
+
+#sidebar li{
+    padding: 20px;
+}
+
+.sidebar-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
